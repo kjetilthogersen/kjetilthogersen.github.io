@@ -1,3 +1,41 @@
 title: dsa
 
-theme: jekyll-theme-architect
+links:
+     header:
+       - title: GitHub
+         url: https://github.com/kjetilthogersen
+    footer:
+      - title: GitHub
+        url: https://github.com/kjetilthogersen
+
+ui:
+    header:
+        color1: "#1a97ab"
+        color2: "#2f3b3d"
+        trianglify: true
+
+social:
+    github:
+        user: kjetilthogersen
+        repo: kjetilthogersen.github.io
+    twitter:
+        enabled: false
+        via:
+        hash:
+        account:
+    facebook:
+        enabled: false
+        profileUrl:
+
+analytics:
+    google: 
+
+# Build settings
+markdown: kramdown
+exclude:
+    - Gemfile
+    - Gemfile.lock
+collections:
+    pages:
+        output: true
+        permalink: /:path/
