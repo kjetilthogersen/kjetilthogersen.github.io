@@ -3,7 +3,9 @@ layout: default
 title: Home
 ---
 
-<h1> Hello </h1>
+<div class="page">
+  <h1 class="page-title">{{ Hello }}</h1>
+
 <hr/>
 
 I'll post things from my research here every now and then
@@ -29,3 +31,6 @@ I'll post things from my research here every now and then
   </p>
   {% endfor %}
 </dl>
+
+
+</div>
