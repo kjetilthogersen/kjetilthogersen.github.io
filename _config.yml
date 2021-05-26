@@ -10,7 +10,7 @@ title:            Kjetil Thøgersen
 tagline:          '...'
 description:      'Researcher, University of Oslo'
 url:              ...
-baseurl:          /
+baseurl:          ''
 
 author:
   name:           'Kjetil Thøgersen'
@@ -20,5 +20,3 @@ paginate:         5
 
 plugins:
   - jemoji
-
-baseurl: ''
