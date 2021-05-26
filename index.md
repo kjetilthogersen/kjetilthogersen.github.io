@@ -1,19 +1,14 @@
 ---
-layout: home
+layout: default
 title: Home
 ---
-
-<div class="page">
-  <h1 class="page-title">{{ Hello }}</h1>
-
-<hr/>
 
 I'll post things from my research here every now and then
 
 :coffee:
 
 
-<hr>
+<hr/>
 <dl>
   {% for post in site.posts %}
     <p class="message">
@@ -31,6 +26,3 @@ I'll post things from my research here every now and then
   </p>
   {% endfor %}
 </dl>
-
-
-</div>
