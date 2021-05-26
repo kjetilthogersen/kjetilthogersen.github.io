@@ -1,0 +1,73 @@
+/* Share buttons */
+.sharebuttons {
+  margin: 0 0 0 0;
+
+}
+
+.sharebuttons ul {
+  margin: 0 0 0 -40px;
+  text-align: center;
+}
+
+.sharebuttons ul li {
+  display: inline;
+}
+
+.sharebuttons ul li a {
+  text-decoration: none;
+}
+
+.sharebuttons ul li svg {
+  width: 30px;
+  height: 30px;
+}
+
+.sharebuttons .researchgate svg {
+  fill: #0077B5;
+}
+
+.sharebuttons .googlescholar svg {
+  fill: #0077B5;
+}
+
+.sharebuttons .linkedin svg {
+  fill: #0077B5;
+}
+
+.sharebuttons .twitter svg {
+  fill: #0077B5;
+}
+
+.sharebuttons .github svg {
+  fill: #0077B5;
+}
+
+.sharebuttons .gmail svg {
+  fill: #0077B5;
+}
+
+
+
+.sharebuttons .researchgate :hover svg {
+  fill: #bce2f5;
+}
+
+.sharebuttons .googlescholar :hover svg {
+  fill: #bce2f5;
+}
+
+.sharebuttons .linkedin :hover svg {
+  fill: #bce2f5;
+}
+
+.sharebuttons .twitter :hover svg {
+  fill: #bce2f5;
+}
+
+.sharebuttons .github :hover svg {
+  fill: #bce2f5;
+}
+
+.sharebuttons .gmail :hover svg {
+  fill: #bce2f5;
+}

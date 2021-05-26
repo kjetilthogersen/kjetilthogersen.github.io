@@ -1,0 +1,72 @@
+<div class="sharebuttons">
+
+  <ul>
+    {% if site.data.social-media.researchgate %}
+    <li class="researchgate">
+      <a href="{{ site.data.social-media.researchgate.href }}{{ site.data.social-media.researchgate.id }}">
+        {% include social/researchgate.svg %}
+      </a>
+    </li>
+    {% endif %}
+
+    {% if site.data.social-media.googlescholar %}
+    <li class="googlescholar">
+      <a href="{{ site.data.social-media.googlescholar.href }}{{ site.data.social-media.googlescholar.id }}">
+        {% include social/googlescholar.svg %}
+      </a>
+    </li>
+    {% endif %}
+
+    {% if site.data.social-media.twitter %}
+    <li class="twitter">
+      <a href={{site.data.social-media.twitter.href}}{{site.data.social-media.twitter.id}}>
+        {% include social/twitter.svg %}
+      </a>
+    </li>
+    {% endif %}
+
+    {% if site.data.social-media.linkedin %}
+    <li class="linkedin">
+      <a href="{{ site.data.social-media.linkedin.href }}{{ site.data.social-media.linkedin.id }}">
+        {% include social/linkedin.svg %}
+      </a>
+    </li>
+    {% endif %}
+
+
+    {% if site.data.social-media.github %}
+    <li class="github">
+      <a href="{{ site.data.social-media.github.href }}{{ site.data.social-media.github.id }}">
+        {% include social/github.svg %}
+      </a>
+    </li>
+    {% endif %}
+
+    {% if site.data.social-media.gmail %}
+    <li class="gmail">
+      <a href="{{ site.data.social-media.gmail.href }}{{ site.data.social-media.gmail.id }}">
+        {% include social/gmail.svg %}
+      </a>
+    </li>
+    {% endif %}
+
+  </ul>
+
+</div>
+
+<div class="sharebuttons">
+  <ul>
+    {% assign sm = site.data.social-media %}
+    {% for entry in sm %}
+    {% assign key = entry | first %}
+       {% if sm[key].id %}
+          {% capture icon_url %} 'social/{{ sm[key].icon }}.svg' {% endcapture %}
+           <li class={{sm[key].title}}>
+           <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><i class="twitter"></i>
+           </a>
+           </li>
+       {% endif %}
+    {% endfor %}
+
+</ul>
+</div>

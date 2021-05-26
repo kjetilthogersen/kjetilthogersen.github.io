@@ -1,0 +1,35 @@
+gmail:
+  id: 'kjetil.thogersen@gmail.com'
+  href: 'mailto:'
+  title: 'gmail'
+  icon: gmail
+
+twitter:
+  id: 'KjetilThogersen'
+  href: 'https://www.twitter.com/'
+  title: 'twitter'
+  icon: 'social/twitter.svg'
+
+googlescholar:
+  id: 'citations?user=-ZGQ_2wAAAAJ&hl'
+  href: 'https://scholar.google.com/'
+  title: 'googlescholar'
+  icon: 'social/googlescholar.svg'
+
+researchgate:
+  id: 'profile/Kjetil-Thogersen'
+  href: 'https://www.researchgate.net/'
+  title: 'researchgate'
+  icon: 'social/researchgate.svg'
+
+github:
+  id: 'kjetilthogersen'
+  href: 'https://github.com/'
+  title: 'github'
+  icon: 'social/github.svg'
+
+linkedin:
+  id: 'in/kjetil-thogersen'
+  href: 'https://www.linkedin.com/'
+  title: 'linkedin'
+  icon: 'social/linkedin.svg'
