@@ -106,13 +106,13 @@ plt.show()
 
 ```python
 # Run the same simulation with gamma = 0
-data = run.run_continuum(x = np.linspace(0,100,1000),
+data = run.run_continuum(x = x,
                          tau = tau,
                          tau_minus = tau+2,
                          dt = 1e-3,
                          output_interval = 100,
                          gamma = 0,
-                         tmax = 50,
+                         tmax = 25,
                          beta = 0.01)
 ```
 
@@ -128,6 +128,7 @@ plt.colorbar()
 
 plt.show()
 ```
+
 
 
 

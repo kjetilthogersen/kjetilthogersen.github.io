@@ -3,10 +3,11 @@ layout: default
 title: Home
 ---
 
+# Hello
+
 I'll post things from my research here every now and then
 
 :coffee:
-
 
 <hr/>
 <dl>
