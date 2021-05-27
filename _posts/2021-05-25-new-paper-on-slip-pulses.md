@@ -131,7 +131,6 @@ plt.show()
 
 
 
-
 ![png](/img/2021-05-25-new-paper-on-slip-pulses/output_6_0.png)
 
 
