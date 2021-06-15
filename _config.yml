@@ -20,3 +20,15 @@ paginate:         5
 
 plugins:
   - jemoji
+
+
+defaults:
+  -
+    scope:
+      path: "_slides" 
+    values:
+      layout: "iframe"
+
+collections:
+  slides:
+    output: true

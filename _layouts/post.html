@@ -1,55 +1,11 @@
----
-layout: default
----
-
-
-
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-
-  {% if page.thumbnail %}
-  <img src="/img/{{ page.thumbnail }}" />
-  {% elsif page.thumbnail_link %}
-  <img src = "{{ page.thumbnail_link }}" />
-  {% endif %}
-
-
-  {% if page.abstract %}
-  <i> {{ page.abstract }} </i>
-  {% endif %}
-
-  <br/> <br/>
-  {{ content }}
-</div>
-
-
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-
-        {% if post.thumbnail %}
-          <img style = "float: left; margin: 0px 15px 0px 0px;" src="/img/{{ post.thumbnail }}" width=300/>
-        {% elsif post.thumbnail_link %}
-          <img style = "float: left; margin: 0px 15px 0px 0px;" src="{{ post.thumbnail_link }}" width=300/>
-        {% endif %}
-
-        {% if post.abstract %}
-        <i> {{ post.abstract }} </i>
-        {% endif %}
-
-        <br style="clear:both" />
-        <br/>
-
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+<!DOCTYPE html>
+<html lang="en-us">
+  {% include head.html %}
+  <body class="theme-base-05">
+    {% include sidebar.html %}
+    <div class="content container">
+      {% include post.html %}
+      {% include related_posts.html %}
+    </div>
+  </body>
+</html>
