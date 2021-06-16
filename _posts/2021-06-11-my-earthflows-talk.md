@@ -109,7 +109,7 @@ We can start with what keeps glacier stable. There are a number of things that c
 Let us have look at a glacier surge in the model. The glacier geometry is shown on the top. The middle panel shows velocity, and the bottom panel shows effective normal stress in blue, basal shear stress in orange, and stress from glacier margins in green. The video plays in the next slide.
 
 25. <video width="460" height="250" controls> <source src="/img/2021-06-11-my-earthflows-talk/surge_simulation.mp4" type="video/mp4"> </video>
-The instant where the video starts is just prior to a surge, where the water pressure is fairly high in the central part of the glacier (low effective normal stress). Then you have a surge propagating down glacier with low values of basal shear stress. When the surge reaches the front, water drains and the effective normal stress increases. In the process, the glacier geometry has changed because of the propagating surge front. The glacier has thinned and is slightly longer.
+The instant where the video starts several years prior to a surge. Eventually, the water pressure is fairly high in the central part of the glacier (low effective normal stress). Then you have a surge propagating down glacier with low values of basal shear stress. When the surge reaches the front, water drains and the effective normal stress increases. In the process, the glacier geometry has changed because of the propagating surge front. The glacier has thinned and is slightly longer.
 * If the movie doesn't play (I'm too lazy to make this work for all browsers), you can download from a direct link [here](/img/2021-06-11-my-earthflows-talk/surge_simulation.mp4).
 
 30. ![Slide](/img/2021-06-11-my-earthflows-talk/EarthFlows2021_img.031.jpeg)
