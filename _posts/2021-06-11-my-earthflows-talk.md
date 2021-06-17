@@ -8,11 +8,10 @@ thumbnail_link: 'https://www.mn.uio.no/geo/english/research/groups/earthflows/bi
 item: 1
 auto: false
 loop: false
-speed: 1000
-pause: 4000
-pager: "true"
+pager: "false"
 controls: "true"
 adaptiveHeight: "true"
+margin-bottom: "100px"
 ---
 
 The preprint which this talk builds on can be found [here](https://doi.org/10.31223/X5JG87). Links to papers by other groups where I show some results for context are given in each individual slide. Simulations are done using [pyGlacier](https://github.com/kjetilthogersen/pyglacier) (which I will probably write a bit about later).
